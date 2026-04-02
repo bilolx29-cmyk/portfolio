@@ -1,5 +1,40 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
     box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: darkblue;
+    color: aliceblue;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: coral;
+}
+section {
+    width: 300px;
+    margin: 200px;
+    color: coral;
+    
+}
+.info{
+    display: flex;
+}
+img{
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: coral;
+    padding: 50px 0;
 }
